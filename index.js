@@ -13,9 +13,7 @@ new Vue({
       <Scene>
         <template v-slot:assets>
           <a-assets>
-          <a-asset-item id="fish" src=".assets/models/fish.obj"></a-asset-item>
-          <a-asset-item id="fish-mtl" src=".assets/models/fish.mtl"></a-asset-item>
-
+         
           </a-assets>
         </template>
       <Ceiling position="0 4 0">
