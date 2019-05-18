@@ -19,7 +19,7 @@ new Vue({
       <Ceiling position="0 4 0">
       <a-entity material="color: white; emissive: yellow; emissiveIntensity: 2;"class="fish" position="0 2.5 0" scale="0.001 0.001 0.001" obj-model="obj: #fish"></a-entity>
       <a-entity light="type: point; intensity: 0.6; color: white; castShadow: true;" position="0 -2 0"> </a-entity>
-      <a-entity light="type: ambient; intensity: 0.3; color: lightblue"></a-entity>
+      <a-entity light="type: ambient; intensity: 0.4; color: lightblue"></a-entity>
       </Ceiling>
       <Wall position="0 0 -5"/>
       <Wall position="-5 0 0" rotation="0 90 0"/>
