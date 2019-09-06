@@ -36,7 +36,7 @@ new Vue({
       </Ceiling>
       <Wall position="0 0 -5">
       <a-plane 
-              position="-2 0 0"
+              position="-3 0 0"
               scale="2.2 3 0"
               material="src: ./assets/images/monok.png"
 
@@ -46,9 +46,19 @@ new Vue({
           ></a-plane>
 
           <a-plane 
-              position="2 0 0"
+              position="0 0 0"
               scale="2 2 0"
-              material="src: ./assets/images/IMG_9510.png"
+              material="src: ./assets/images/GJkuubik.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
+          ></a-plane>
+
+          <a-plane 
+              position="3 0 0"
+              scale="2.2 3 0"
+              material="src: ./assets/images/ultramariinjasienna.png"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
@@ -65,8 +75,49 @@ new Vue({
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
               event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
           ></a-plane>
+
+          <a-plane 
+              position="-2.3 0 0"
+              scale="3 2 0"
+              material="src: ./assets/images/vaasid.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
+          ></a-plane>
       </Wall>
-      <Wall position="5 0 0" rotation="0 -90 0"></Wall>
+      <Wall position="5 0 0" rotation="0 -90 0">
+      <a-plane 
+              position="-3 0 0"
+              scale="3 2 0"
+              material="src: ./assets/images/kuubikud.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
+          ></a-plane>
+
+          <a-plane 
+              position="0 0 0"
+              scale="2 3 0"
+              material="src: ./assets/images/lillepott_2.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
+          ></a-plane>
+
+          <a-plane 
+              position="3 0 0"
+              scale="3 2 0"
+              material="src: ./assets/images/ymmargused.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
+          ></a-plane>
+
+      </Wall>
       <Wall position="0 0 5" rotation="0 -180 0"></Wall>
       <Box class="hover" position="1 1 0" shadow="cast: true"   
             event-set__enter="_event: mouseenter; color: red"
