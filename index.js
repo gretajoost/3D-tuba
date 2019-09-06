@@ -27,10 +27,11 @@ new Vue({
         <a-plane color="gray" scale="0.5 0.2 0" opacity="0.5" />
         </a-entity>
           <a-text id="kuubikutekst" value="see on kuubik" width="1" align="center" color="#FFF" visible="false" position="0 -0.05 -0.5" />
-          <a-text id="plakatitekst" value="see on hai" width="1" align="center" color="#FFF" visible="false" position="0 -0.05 -0.5" />
+          <a-text id="plakatitekst" value="joonistused" width="1" align="center" color="#FFF" visible="false" position="0 -0.05 -0.5" />
+          <a-text id="plakatitekst1" value="Kompositsioon nimetähtedest" width="1" align="center" color="#FFF" visible="false" position="0 -0.05 -0.5" />
+          <a-text id="plakatitekst2" value="Taimstilisatsioon" width="1" align="center" color="#FFF" visible="false" position="0 -0.05 -0.5" />
         </Rig>
       <Ceiling position="0 4 0">
-     
       <a-entity light="type: point; intensity: 0.6; color: DarkCyan; castShadow: true;" position="0 -2 0"> </a-entity>
       <a-entity light="type: ambient; intensity: 0.4; color: lightblue"></a-entity>
       </Ceiling>
@@ -51,8 +52,8 @@ new Vue({
               material="src: ./assets/images/GJkuubik.png"
 
               class="hover"
-              event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
-              event-set__leave="_event: mouseleave; _target: #plakatitekst; visible: false"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst1; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst1; visible: false"
           ></a-plane>
 
           <a-plane 
@@ -118,7 +119,27 @@ new Vue({
           ></a-plane>
 
       </Wall>
-      <Wall position="0 0 5" rotation="0 -180 0"></Wall>
+      <Wall position="0 0 5" rotation="0 -180 0">
+      <a-plane 
+              position="-2.5 0 0"
+              scale="4 2 0"
+              material="src: ./assets/images/maasikas1.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst2; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst2; visible: false"
+          ></a-plane>
+
+          <a-plane 
+              position="2 0 0"
+              scale="4 2 0"
+              material="src: ./assets/images/maasikas2.png"
+
+              class="hover"
+              event-set__enter="_event: mouseenter; _target: #plakatitekst2; visible: true"
+              event-set__leave="_event: mouseleave; _target: #plakatitekst2; visible: false"
+          ></a-plane>
+      </Wall>
       <Box class="hover" position="1 1 0" shadow="cast: true"   
             event-set__enter="_event: mouseenter; color: red"
             event-set__leave="_event: mouseleave; color: blue"
