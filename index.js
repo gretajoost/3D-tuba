@@ -8,7 +8,7 @@ import Rig from './components/Rig.js'
 
 new Vue({
     el: '#app',
-    components: { Layout, Scene, Box, Wall, Floor, Ceiling, Rig },
+    components: { Layout, Box, Scene, Wall, Floor, Ceiling, Rig },
     template: `
     <Layout>
       <Scene>
