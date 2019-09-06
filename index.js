@@ -15,8 +15,7 @@ new Vue({
         <template v-slot:assets>
           <a-assets>
 
-          <a-asset-item id="kuubik2" src="./assets/models/kuubik2.obj"></a-asset-item>
-          <a-asset-item id="kuubik2-mtl" src="./assets/models/kuubik2.mtl"></a-asset-item>
+          
 
           </a-assets>
         </template>
@@ -38,8 +37,8 @@ new Vue({
       <Wall position="0 0 -5">
       <a-plane 
               position="-2 0 0"
-              scale="3 2 0"
-              material="src: ./assets/images/shark.png"
+              scale="2 3 0"
+              material="src: ./assets/images/IMG_5375.JPG"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
@@ -49,7 +48,7 @@ new Vue({
           <a-plane 
               position="2 0 0"
               scale="3 2 0"
-              material="src: ./assets/images/shark2.png"
+              material="src: ./assets/images/MVZX7176.JPG"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
@@ -60,7 +59,7 @@ new Vue({
       <a-plane 
               position="2 0 0"
               scale="3 2 0"
-              material="src: ./assets/images/shark2.png"
+              material="src: ./assets/images/MVZX7176.JPG"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
