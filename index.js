@@ -37,8 +37,8 @@ new Vue({
       <Wall position="0 0 -5">
       <a-plane 
               position="-2 0 0"
-              scale="2 3 0"
-              material="src: ./assets/images/IMG_5375.JPG"
+              scale="2.2 3 0"
+              material="src: ./assets/images/monok.png"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
@@ -47,8 +47,8 @@ new Vue({
 
           <a-plane 
               position="2 0 0"
-              scale="3 2 0"
-              material="src: ./assets/images/MVZX7176.JPG"
+              scale="2 2 0"
+              material="src: ./assets/images/IMG_9510.png"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
@@ -59,7 +59,7 @@ new Vue({
       <a-plane 
               position="2 0 0"
               scale="3 2 0"
-              material="src: ./assets/images/MVZX7176.JPG"
+              material="src: ./assets/images/tintekas.png"
 
               class="hover"
               event-set__enter="_event: mouseenter; _target: #plakatitekst; visible: true"
